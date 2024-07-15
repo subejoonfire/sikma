@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <h1>Laporan Uang Kas Sosial</h1>
     <table border="1">
         <thead>
             <tr>

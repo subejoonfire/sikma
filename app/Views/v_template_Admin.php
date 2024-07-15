@@ -157,6 +157,29 @@
                 </li>
               </ul>
             </li>
+            <li class="nav-item <?= $menu == 'uang-kas-sosial' ? 'menu-open' : '' ?>">
+              <a href="#" class="nav-link <?= $menu == 'uang-kas-sosial' ? 'active' : '' ?>">
+                <i class="nav-icon fas fa-hand-holding-heart"></i>
+                <p>
+                  Laporan Kas
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="<?= base_url('admin/laporan-kas/masjid') ?>" class="nav-link <?= $menu == 'kas-masuk-sosial' ? 'active' : '' ?>">
+                    <i class="far fa-circle nav-icon text-success"></i>
+                    <p>Laporan Kas Masjid</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="<?= base_url('admin/laporan-kas/sosial') ?>" class="nav-link">
+                    <i class="far fa-circle nav-icon text-danger"></i>
+                    <p>Laporan Kas Sosial</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
             <li class="nav-item">
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-users"></i>

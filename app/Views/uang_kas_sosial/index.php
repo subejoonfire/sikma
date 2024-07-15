@@ -28,36 +28,6 @@
                         <button type="submit" class="btn btn-success">Tambah</button>
                     </form>
                     <br>
-                    <form>
-                        <div class="form-group">
-                            <label for="bulan">Bulan:</label>
-                            <select id="bulan" name="bulan" class="form-control">
-                                <option value="1">Januari</option>
-                                <option value="2">Februari</option>
-                                <option value="3">Maret</option>
-                                <option value="4">April</option>
-                                <option value="5">Mei</option>
-                                <option value="6">Juni</option>
-                                <option value="7">Juli</option>
-                                <option value="8">Agustus</option>
-                                <option value="9">September</option>
-                                <option value="10">Oktober</option>
-                                <option value="11">November</option>
-                                <option value="12">Desember</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="tahun">Tahun:</label>
-                            <select id="tahun" name="tahun" class="form-control">
-                                <?php for ($i = 2020; $i <= date('Y'); $i++) { ?>
-                                    <option value="<?= $i ?>"><?= $i ?></option>
-                                <?php } ?>
-                            </select>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Tampilkan</button>
-                        <a href="<?= base_url('admin/uang-kas-sosial/print') ?>" class="btn btn-secondary">Print</a>
-                    </form>
-                    <br>
                     <table class="table table-bordered">
                         <thead>
                             <tr>

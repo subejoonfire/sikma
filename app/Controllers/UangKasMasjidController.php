@@ -98,10 +98,4 @@ class UangKasMasjidController extends BaseController
         $this->data['total_uang'] = $this->ModelKasMasjid->selectSum('kas_masuk')->first();
         return view('v_template_admin', $this->data);
     }
-    public function print(){
-        $data = [
-            'data' => $this->ModelKasMasjid->findAll(),
-        ];
-        return view('uang_kas_sosial/print', $data);
-    }
 }
